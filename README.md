@@ -81,7 +81,7 @@ npm install
 
 Open the configuration file where the MongoDB URL is set (e.g., config.js or .env).
 Change the MongoDB URL to the URL of your local system to ensure the database functionality works properly.
-
+```sh
 MONGODB_URI=mongodb://localhost:27017/your-database-name
 
 ### Usage
