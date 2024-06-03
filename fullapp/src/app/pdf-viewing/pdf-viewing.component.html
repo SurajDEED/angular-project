@@ -1,0 +1,19 @@
+<!-- <button
+  class="inline-flex items-center rounded-md bg-pink-50 px-2 py-1 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10"
+>
+  PDF Viewing
+</button> -->
+
+<div class="flex flex-col justify-center items-center" >
+  <button (click)="viewPdf()"
+  class="rounded-md w-[350px] bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+>
+  PDF Viewing
+</button>
+
+<div *ngIf="imageData">
+  <img [src]="imageData" alt="Captured Image">
+</div>
+</div>
+
+
